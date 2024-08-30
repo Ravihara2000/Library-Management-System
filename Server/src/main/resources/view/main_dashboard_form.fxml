@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainAnchorPane" prefHeight="588.0" prefWidth="936.0" stylesheets="@../style/dashboard_form.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ravihara.library_management_system.controller.MainDashBoardController">
+   <children>
+      <AnchorPane fx:id="mainbuttonPane" layoutX="-60.0" prefHeight="588.0" prefWidth="208.0" stylesheets="@../style/dashboard_form.css">
+         <children>
+            <Button layoutX="86.0" layoutY="188.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="191.0" styleClass="side-corner-round-button-black" stylesheets="@../style/dashboard_form.css" text="Button" />
+            <Button layoutX="86.0" layoutY="264.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="191.0" styleClass="side-corner-round-button-black" stylesheets="@../style/dashboard_form.css" text="Button" />
+            <Button layoutX="86.0" layoutY="340.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="191.0" styleClass="side-corner-round-button-black" stylesheets="@../style/dashboard_form.css" text="Button" />
+            <Button layoutX="86.0" layoutY="411.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="191.0" styleClass="side-corner-round-button-black" stylesheets="@../style/dashboard_form.css" text="Button" />
+            <ImageView fitHeight="118.0" fitWidth="109.0" layoutX="127.0" layoutY="27.0">
+               <image>
+                  <Image url="@../assets/img/profile.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="232.0" layoutY="15.0" prefHeight="554.0" prefWidth="658.0">
+         <children>
+            <AnchorPane layoutX="28.0" layoutY="380.0" prefHeight="153.0" prefWidth="602.0" styleClass="sub_panes" />
+            <AnchorPane layoutX="28.0" layoutY="206.0" prefHeight="154.0" prefWidth="602.0" styleClass="sub_panes" />
+            <AnchorPane layoutX="28.0" layoutY="39.0" prefHeight="154.0" prefWidth="602.0" styleClass="sub_panes">
+               <children>
+                  <Label layoutX="232.0" layoutY="25.0" prefHeight="51.0" prefWidth="360.0" text="Manage Your All Books" textFill="#615757">
+                     <font>
+                        <Font name="System Bold" size="31.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="118.0" fitWidth="140.0" layoutX="25.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                     <Image url="@../assets/img/book.png" />
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
